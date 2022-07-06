@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+    <h1>Guess a number between 1 to 10<h1>
+            <div class="container">
+                <input type="number" name="numberVal" class="question" id="numberVal" required autocomplete="off" />
+                <label for="numberVal"><span>What's Your Guess?</span></label>
+
+                <!-- <input type="number" name="numberVal" id="numberVal" style="text-align: center" /> -->
+                <button onclick="handle()" class="btn" id="sub">Guess</button>
+                <div id="turns"></div>
+                <div id="result"></div>
+            </div>
+</body>
+
+</html>
+<script src="index.js"></script>
